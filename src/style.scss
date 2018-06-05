@@ -108,3 +108,25 @@ footer {
     margin-bottom: 0;
   }
 }
+
+
+@media screen and (min-width: 500px) {
+  #landing {
+    display: flex;
+    height: 100%;
+  }
+
+  #landing-text {
+    height: 100vh;
+  }
+
+  #landing-image {
+    height: 100vh;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .btn {
+    padding: 1rem 3rem;
+  }
+}
